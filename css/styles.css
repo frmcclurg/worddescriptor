@@ -1,0 +1,56 @@
+.page-header
+{
+   display: none;
+}
+
+.ui-autocomplete-loading 
+{
+   background: white url("../images/spinner_16x16.gif") right center no-repeat;
+}
+
+button.btn-primary
+{
+   font-weight: bold;
+}
+
+.ui-accordion .ui-accordion-content {
+    padding: 1em 1em;
+}
+
+.jumbotron {
+    padding: 30px;
+    margin-top: 15px;
+}
+
+.sub-lead {
+    font-size: 18px;
+}
+
+footer.row
+{
+   margin-left: 5px;
+   margin-right: 5px;
+}
+
+/*
+ * Center the jquery ui dialog buttons
+ */
+.ui-dialog .ui-dialog-buttonpane { 
+   text-align: center;
+}
+
+.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset { 
+   float: none;
+}
+
+.ui-dialog-buttonset-title { 
+   text-align: left;
+}
+
+div#tabs {
+   width: 100%;
+}
+
+div#synonymDialog {
+   width: 100%;
+}

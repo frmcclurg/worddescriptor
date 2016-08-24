@@ -1,0 +1,5 @@
+ErrorDocument 404 /index.php
+RewriteEngine on
+RewriteCond %{REQUEST_URI}  ^/$
+RewriteCond %{QUERY_STRING} ^ckattempt=([0-9]*)$
+RewriteRule ^(.*) /index.php [R=301,L]
